@@ -9,4 +9,3 @@ int main ()
     cout << henok[2][2] << endl;
 
 }
-
