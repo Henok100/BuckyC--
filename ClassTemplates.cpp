@@ -7,7 +7,6 @@ template < class T>
 
 class henok
 {
-    
     T first, second;
     public:    
         Henok(T a, T b)
@@ -18,8 +17,7 @@ class henok
         T bigger();
 };
 
-template <class T>
-
+template <class T> //Always first
 T henok<T>::bigger()
 {
     return (first > second? first:second);
@@ -27,6 +25,7 @@ T henok<T>::bigger()
 
 int main ()
 {
-    
+    henok <int> hen(5, 7);
+    cout << hen.bigger();
 
 }
