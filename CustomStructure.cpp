@@ -17,6 +17,6 @@ int main ()
 
     while(cin >> id >> name >> money)
     {
-        theFile << id << "      " << name << "      " << money << endl;
+        theFile << id << "  " << name << "  " << money << endl;
     }
 }
