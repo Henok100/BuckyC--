@@ -6,17 +6,16 @@ using namespace std;
 
 int main ()
 {
-    ofstream theFile("henok.txt");
+    ofstream theFile("objects.txt");
 
-    cout << "Henok Gashaw\n";
+    cout << "Items\n";
     cout << "Press ctrl+z to quit\n"; 
 
-    int id;
     string name;
     double money;
 
-    while(cin >> id >> name >> money)
+    while(cin >> name >> money)
     {
-        theFile << id << "      " << name << "      " << money << endl;
+        theFile << name << "      " << money << endl;
     }
 }

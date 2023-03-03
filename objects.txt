@@ -1,0 +1,12 @@
+pen      0
+pencil      0
+chair      0
+home      0
+car      0
+food      50
+shower      78
+kids      90
+family      100
+addiction      -98
+alcohol      -100
+softDrinks      -23
